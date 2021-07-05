@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    background: #e5e5e5;
+}
+
+.container {
+    position: static;
+    background: white;
+    width: 55%;
+    height: 600px;
+    margin: 5% auto 10% auto;
+    min-width: 350px;
+    max-height: 900px;
+}
+
+
+
+#title {
+    padding-top: 7%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.left-form {
+    margin-top: 2%;
+    background: white;
+    height: 350px;
+    width: 35%;
+   float: left;
+   text-align: center;
+   margin-left: 13%;
+   box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.right-form {
+    margin-top: 4%;
+    background: white;
+   width: 35%;
+   height: 350px;
+   margin-left: 51%;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+#woman {
+    padding-top: 15%;
+}
+
+#man {
+    padding-top: 15%;
+}
+
+.left-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    height: 14%;
+    width: 45%;
+    background: #2499ff;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.right-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    height: 14%;
+    width: 45%;
+    background: #2499ff;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.left-button:active {
+    background: #0070c2;
+}
+
+.right-button:active {
+    background: #0070c2;
+}
